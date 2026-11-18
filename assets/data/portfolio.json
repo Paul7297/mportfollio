@@ -1,0 +1,101 @@
+{
+  "resume": "assets/resume/RESUME_15-11-26.pdf",
+  "skills": [
+    {
+      "category": "Languages and Frontend",
+      "items": [
+        "Python",
+        "JavaScript",
+        "ReactJS",
+        "HTML / CSS",
+        "Java",
+        "C / C++",
+        "TypeScript",
+        "Bootstrap",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "category": "Data, ML and AI",
+      "items": [
+        "NumPy",
+        "Pandas",
+        "Scikit-learn",
+        "TensorFlow",
+        "PyTorch",
+        "Power BI",
+        "Tableau",
+        "Excel"
+      ]
+    },
+    {
+      "category": "Backend and APIs",
+      "items": [
+        "Flask",
+        "FastAPI",
+        "Node.js",
+        "REST APIs",
+        "SQLAlchemy",
+        "Redux"
+      ]
+    },
+    {
+      "category": "Databases and Cloud",
+      "items": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Docker",
+        "AWS"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Global Population Intelligence System",
+      "category": "Data Engineering",
+      "description": "Built an analytics platform on UN population data for 12 countries, with a validated ETL pipeline, PostgreSQL star schema, interactive dashboard, and natural-language-to-SQL assistant.",
+      "image": "assets/img/portfolio/Global_Population1.png",
+      "images": [
+        "assets/img/portfolio/Global_Population1.png",
+        "assets/img/portfolio/Global_Population2.png"
+      ],
+      "tooltip": "Explore the Global Population Intelligence analytics dashboard and AI assistant.",
+      "technologies": ["Python", "Flask", "React", "PostgreSQL", "AWS", "Ollama"],
+      "link": "",
+      "linkTitle": "View project"
+    },
+    {
+      "title": "PackVote 2.0",
+      "category": "Web Application",
+      "description": "ML-based group travel platform using FastAPI, React, TypeScript, PostgreSQL, Docker, TF-IDF, and cosine similarity recommendations.",
+      "image": "assets/img/portfolio/packvote2.png",
+      "images": [
+        "assets/img/portfolio/packvote2.png",
+        "assets/img/portfolio/packvote1.png"
+      ],
+      "tooltip": "View the PackVote travel planning dashboard and sign-in screen.",
+      "technologies": ["FastAPI", "React", "TypeScript", "PostgreSQL", "Scikit-learn", "Docker"],
+      "link": "https://github.com/Paul7297/PackVote-2.0",
+      "linkTitle": "View source code"
+    },
+    {
+      "title": "Finance Dashboard",
+      "category": "Dashboard",
+      "description": "Analyzed personal finance data using Power BI and Excel to identify spending patterns and financial trends.",
+      "image": "assets/img/portfolio/app-1.png",
+      "technologies": ["Power BI", "Excel", "Data Visualization"],
+      "link": "https://github.com/Paul7297/My-Finance-Dashboard/blob/main/Finance%20Dashboard%20Final.pdf",
+      "linkTitle": "View dashboard"
+    },
+    {
+      "title": "Voting System for Club",
+      "category": "Web Application",
+      "description": "Built a club voting system with HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB.",
+      "image": "assets/img/portfolio/myapp-2.png",
+      "technologies": ["JavaScript", "Node.js", "Express.js", "MongoDB"],
+      "link": "https://github.com/Paul7297/Voting-System-For-Club",
+      "linkTitle": "View source code"
+    }
+  ]
+}
