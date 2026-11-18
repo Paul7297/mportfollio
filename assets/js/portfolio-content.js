@@ -110,15 +110,20 @@
       }
 
       if (toggleProjectsButton && portfolioContainer) {
+        const toggleLabel = toggleProjectsButton.querySelector("span");
+        const toggleIcon = toggleProjectsButton.querySelector("i");
         toggleProjectsButton.hidden = data.projects.length <= INITIAL_PROJECT_COUNT;
         toggleProjectsButton.addEventListener("click", function () {
+          const expanded = toggleProjectsButton.getAttribute("aria-expanded") !== "true";
           portfolioContainer.querySelectorAll(".project-card-column").forEach(function (card, index) {
             if (index >= INITIAL_PROJECT_COUNT) {
-              card.hidden = false;
+              card.hidden = !expanded;
             }
           });
-          toggleProjectsButton.setAttribute("aria-expanded", "true");
-          toggleProjectsButton.hidden = true;
+          toggleProjectsButton.setAttribute("aria-expanded", String(expanded));
+          toggleLabel.textContent = expanded ? "View less projects" : "View more projects";
+          toggleIcon.classList.toggle("bi-arrow-up", expanded);
+          toggleIcon.classList.toggle("bi-arrow-down", !expanded);
         });
       }
 
